@@ -64,7 +64,7 @@ class Keypad():
 
         self._last_key_press_time = 0
 
-        GPIO.setmode(GPIO.BCM)
+        GPIO.setmode(GPIO.BOARD)
 
         self._setRowsAsInput()
         self._setColumnsAsOutput()
